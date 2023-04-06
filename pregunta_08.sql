@@ -41,3 +41,17 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select 
+    strftime('%Y', c23) as  "strftime('%Y', c23)",
+    avg(c21) as "avg(c21)"
+from
+    tbl2
+group by "strftime('%Y', c23)"
+
+
+
+
+
+
+
+    
