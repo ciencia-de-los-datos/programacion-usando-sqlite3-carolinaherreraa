@@ -43,3 +43,9 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select 
+    K0,
+    avg(c12) as "avg(c12)"
+from tbl1
+where c13 >400
+group by K0;

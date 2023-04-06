@@ -43,3 +43,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select 
+    *
+from tbl1
+where K0 like "A"
+order by c14 asc;
+
